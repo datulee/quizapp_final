@@ -30,7 +30,7 @@ Instant scoring and final result display
 To run this project locally:
 
 1. Clone the repository:
-git clone [https://github.com/yourusername/flags-quiz-app.git](https://github.com/datulee/quizapp_final)
+git clone https://github.com/datulee/quizapp_final
 
 2. Open it in Android Studio.
 3. Build and run on an emulator or Android device.
