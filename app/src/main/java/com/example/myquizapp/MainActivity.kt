@@ -19,8 +19,8 @@ class MainActivity : AppCompatActivity() {
             if (etName.text.isEmpty()) {
                 Toast.makeText(this, "Please enter your name", Toast.LENGTH_SHORT).show()
             }else {
-                val intent = Intent(this, *QUIZ_ACTIVITY*::class.java)
-                intent.putExtra(*aq_kitxvebis_file*.USER_NAME, etName.text.toString())
+                val intent = Intent(this, QuizQuestionsActivity::class.java)
+                intent.putExtra(Constants.USER_NAME, etName.text.toString())
                 startActivity(intent)
                 finish()
             }
